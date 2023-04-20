@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<head>
+    <title>Example</title>
+    <style>
+        
+        .one {
+            border-color:black;
+             background-color: blanchedalmond; 
+            padding: 1em;
+        margin: 5vw;
+        color:black;
+        align-items: baseline;
+        font-size: 18px;
+        }
+        input {
+            border-color:black;
+             background-color: white; 
+            padding: 5vm;
+        margin: 12px;
+        color: black;
+        }
+        </style>
+
+    <form >
+        <div class="one">
+        <label for="name"> Name </label>
+            <input type="text">  </input><br>
+            <label for="password"> Password </label>
+            <input type="password">  </input> <br>
+            <label for="mobile nuumber" > Mobile Number </label>
+            <input type="tel" required/> 
+          <br>
+                <label for="dob"> DOB </label> 
+                <input type="date"></input><br>
+                <label for="email"> email </label>  
+                <input type="email"></input> <br> 
+             <!--   <label for="button"> </label>  -->
+                
+              
+                <label for="gender"> <strong> gender</strong></label><br>
+                <input type="radio" name="radio" id="1" value="radio"> Male </input><br>
+                <input type="radio" name="radio" id="2" value="radio"> Female </input><br>
+                <input type="radio" name="radio" id="3" value="radio"> rather not say  </input><br>
+
+                <h3 style="color: blue"> EDUCATION </h3>
+                <label for="engineering">Engineering qualifications</label>
+                <select name="eng" id="eng">
+                    <option selected > none </option>
+                    <option> CSE </option>
+                    <option> ECE </option>
+                    <option> AIML </option>
+                </select><br>
+                <label for="hobbies"><strong>HOBBIES</strong></label><br>
+      <input type="checkbox"> CHESS <br>
+      <input type="checkbox"> SPORTS<br>
+      <input type="checkbox"> PAINT<br>
+     
+      <label for="address"> Address </label>
+      <textarea name="textarea" cols="35" rows="5" id="textarea"> </textarea> 
+      <br>
+      <label for="attach_resume"> Attach Resume </label>
+      <input type="file" name="fieldField" id="fieldField"> <br>
+      <input type="submit"></input><br>        
+      <input type="button" onclick="alert('Success')" >
+    </div>
+
+    </form>
+
+</body>
+
+</html>
